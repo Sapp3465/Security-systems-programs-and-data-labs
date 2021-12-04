@@ -4,4 +4,5 @@ export enum ESchemaNames {
     rights = 'Rights',
     fileTypes = 'FileTypes',
     files = 'Files',
+    errors = 'Errors'
 }
