@@ -1,0 +1,26 @@
+{
+  "name": "Security-systems-programs-and-data-labs",
+  "version": "1.0.0",
+  "description": "labs for security systems subject",
+  "main": "index.js",
+  "repository": "https://github.com/Sapp3465/Security-systems-programs-and-data-labs.git",
+  "author": "Sapp3465",
+  "license": "MIT",
+  "scripts": {
+    "build-lab1": "echo in progress",
+    "start-lab1": "echo in progress",
+    "build-lab2": "echo in progress",
+    "start-lab2": "echo in progress",
+    "build-lab3": "echo in progress",
+    "start-lab3": "echo in progress",
+    "build-lab4": "echo in progress",
+    "start-lab4": "echo in progress",
+    "build-lab5": "echo in progress",
+    "start-lab5": "echo in progress",
+    "build-lab6": "echo in progress",
+    "start-lab6": "echo in progress"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  }
+}
