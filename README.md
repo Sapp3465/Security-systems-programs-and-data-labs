@@ -2,6 +2,8 @@
 
 * Download nodejs and npm
 
+* Download yarn `npm install -g yarn`
+
 * Write `yarn install` in your terminal for install all libs
 
 * Download mongodb
