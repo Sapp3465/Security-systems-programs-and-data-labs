@@ -2,7 +2,7 @@
   "name": "Security-systems-programs-and-data-labs",
   "version": "1.0.0",
   "description": "labs for security systems subject",
-  "main": "index.js",
+  "main": "index.ts",
   "repository": "https://github.com/Sapp3465/Security-systems-programs-and-data-labs.git",
   "author": "Sapp3465",
   "license": "MIT",
