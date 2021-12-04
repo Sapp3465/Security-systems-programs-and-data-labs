@@ -7,8 +7,8 @@
   "author": "Sapp3465",
   "license": "MIT",
   "scripts": {
-    "build-lab1": "echo in progress",
-    "start-lab1": "echo in progress",
+    "build-lab1": "tsc lab1/index.ts",
+    "start-lab1": "node lab1/index.js",
     "build-lab2": "echo in progress",
     "start-lab2": "echo in progress",
     "build-lab3": "echo in progress",
@@ -18,9 +18,14 @@
     "build-lab5": "echo in progress",
     "start-lab5": "echo in progress",
     "build-lab6": "echo in progress",
-    "start-lab6": "echo in progress"
+    "start-lab6": "echo in progress",
+    "reinit": "tsc virtual-disk/init.ts && node virtual-disk/init.js"
   },
   "devDependencies": {
     "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "mongoose": "^6.0.14"
   }
 }

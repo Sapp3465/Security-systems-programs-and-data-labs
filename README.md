@@ -4,6 +4,12 @@
 
 * Write `yarn install` in your terminal for install all libs
 
+* Download mongodb
+
+* Create `.env` file like `.env-pre`
+
+* Init virtual disk (mongodb) with `yarn init-disk`
+
 * Build program with `yarn build-lab<number>`
 
 * Start program with `yarn start-lab<number>`
@@ -13,6 +19,8 @@
 ### Repository architecture
 
 * `lab<number>` - folder with lab
+
+* `VirtualDisk.json` - virtual disk in json format
 
 * `src` - folder with code
 
