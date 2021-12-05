@@ -27,6 +27,7 @@
   "dependencies": {
     "big.js": "^6.1.1",
     "dotenv": "^10.0.0",
+    "encrypt-rsa": "^1.1.0",
     "mongoose": "^6.0.14",
     "node-forge": "^0.10.0"
   }
