@@ -1,4 +1,4 @@
-import {connect, Model, connection} from 'mongoose';
+import {connect, connection, Model} from 'mongoose';
 import * as dotenv from 'dotenv';
 import {FileTypesModel, IFileTypes} from "./schemas/file-types.schema";
 import {ESchemaNames} from "./schemas/schemas.enum";
@@ -11,6 +11,8 @@ import {FilesModel, IFiles} from "./schemas/files.schema";
 import {filesDataset} from "./datasets/files.dataset";
 import {IUserRights, UserRightsModel} from "./schemas/user-rights.schema";
 import {userRightsDataset} from "./datasets/user-rights.dataset";
+import {IKeys, KeysModel} from "./schemas/keys.schema";
+import {keysDataset} from "./datasets/keys.dataset";
 
 dotenv.config();
 
@@ -35,6 +37,7 @@ const createManyOrLog = async <modelInterface>(
         await createManyOrLog<IUsers>(usersDataset, UserModel, ESchemaNames.users);
         await createManyOrLog<IFiles>(filesDataset, FilesModel, ESchemaNames.files);
         await createManyOrLog<IUserRights>(userRightsDataset, UserRightsModel, ESchemaNames.userRights);
+        await createManyOrLog<IKeys>(keysDataset, KeysModel, ESchemaNames.keys);
         await connection.close();
     } catch (e) {
         console.log('init disk error')
